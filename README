@@ -1,0 +1,7 @@
+To run tests you need:
+1) Install postgresql database
+2) Create: database: 'test_task_db' with user: 'test_user' that have password: 'test_password' or change with yours data
+3) Run commands in terminal: 
+  - 'bundle install'
+  - 'sudo service postgresql start'
+4) run test by runing 'rspec table_spec.rb'
